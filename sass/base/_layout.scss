@@ -1,0 +1,25 @@
+// Global Styles
+html,
+body {
+  background-color: $grey-light;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  @extend .text--center;
+  @include font-type($primary-font, normal, 400);
+  margin: 20px auto 55px;
+}
+
+.main {
+
+  &__list {
+    max-width: 300px;
+    margin: auto;
+  }
+}
+
+.footer {
+  margin: 50px auto 20px;
+}
