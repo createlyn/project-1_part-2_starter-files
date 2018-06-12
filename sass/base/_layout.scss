@@ -19,23 +19,21 @@
 }
 
 .main {
+  margin: $spacer-m;
 
   &__section {
+    margin: $spacer-lg $reset-zero;
 
     &--index {
-
-    }
-
-    &--container {
 
     }
   }
 }
 
-.container {
-
+.item-container {
+    margin: $spacer-m $reset-zero;
 }
 
 .footer {
-  
+
 }
