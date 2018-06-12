@@ -4,14 +4,7 @@
 @import "variables/spacers";
 @import "variables/typography";
 
-// Global Mixin
+// Global Mixins
 @import "mixins/background";
-
-// Component Variables
-@import "variables/alert";
-@import "variables/buttons";
-
-// Mixins
-@import "mixins/alert";
 @import "mixins/responsive";
 @import "mixins/typography";

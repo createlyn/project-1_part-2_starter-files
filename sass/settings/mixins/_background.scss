@@ -1,4 +1,6 @@
-// Backgrounds
+// Background Mixin Settings Stylesheet
+// ========================================
+
 @each $color in $colors {
   $name:          nth($color, 1);
   $background:    nth($color, 2);
