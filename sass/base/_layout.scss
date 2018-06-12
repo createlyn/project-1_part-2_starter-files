@@ -3,21 +3,10 @@
 // ========================================
 body {
 
-  @include media($medium) {
-    background-color: yellow;
-  }
-
-  @include media($large) {
-    background-color: blue;
-  }
-
-  @include media($extra-large) {
-    background-color: green;
-  }
 }
 
 .header {
-  @include font-type($primary-font, normal, 700);
+
 }
 
 .main {
