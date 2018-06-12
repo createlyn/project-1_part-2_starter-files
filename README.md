@@ -5,7 +5,7 @@ Remove all contents from here down when you submit your project.
 ---
 
 1. Clone this repository
-2. Remove the existing .git folder (`git rm .git`)
+2. Remove the existing .git folder (`rm -rf .git` in your terminal)
 3. Create a new Git repo in your project (`git init`)
 4. Update your .EditorConfig file with (at least) the following properties:
  * indent_style
