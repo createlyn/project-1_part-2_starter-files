@@ -1,8 +1,11 @@
 // Global Variables
 @import "variables/colors";
-@import "variables/grid";
+@import "variables/responsive";
 @import "variables/spacers";
 @import "variables/typography";
+
+// Global Mixin
+@import "mixins/background";
 
 // Component Variables
 @import "variables/alert";
@@ -10,5 +13,5 @@
 
 // Mixins
 @import "mixins/alert";
-@import "mixins/card";
+@import "mixins/responsive";
 @import "mixins/typography";

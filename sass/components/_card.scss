@@ -2,25 +2,14 @@
 // ========================================
 
 // Variables
-// $card-margin-md:      0 0 $spacer-echo;
-// $card-padding-md:     $spacer-echo;
-//
-// $card-margin-sm:      0 0 $spacer-hotel;
-// $card-padding-sm:     $spacer-hotel;
-//
-//
-// // Structure
-// .card {
-//   @include card;
-// }
-//
-// // Card Sizes
-// .card--md {
-//   margin: $card-margin-md;
-//   padding: $card-padding-md;
-// }
-//
-// .card--sm {
-//   margin: $card-margin-sm;
-//   padding: $card-padding-sm;
-// }
+$card-bg: white;
+
+
+// Structure
+.card {
+  background-color: $card-bg;
+  border: 1px solid gray;
+  display: inline-block;
+  margin: 0 0 $spacer-m;
+  padding: $spacer-m;
+}

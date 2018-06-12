@@ -31,24 +31,9 @@ p {
 }
 
 a {
+  @extend .text--white;
 
+  &:hover {
+
+  }
 }
-
-// Text Alignment
-// @each $text-alignment in $text-alignments {
-//   $name:   nth($text-alignment, 1);
-//   $align:  nth($text-alignment, 2);
-//
-//   .text--#{$name} {
-//     text-align: $align;
-//   }
-// }
-//
-// // Text Colors
-// @each $name, $tones in $type-colors {
-//   $tone-color: nth($tones, 1);
-//
-//   .text--#{$name} {
-//     color: $tone-color;
-//   };
-// }

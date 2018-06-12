@@ -1,28 +1,30 @@
 // Base Layout Stylesheet
 // This is where your layout will go
 // ========================================
+body {
 
-.header {
+  @include media($medium) {
+    background-color: yellow;
+  }
 
-  &__nav {
+  @include media($large) {
+    background-color: blue;
+  }
 
-    &__list {
-
-      &__item {
-
-        &__link {
-
-        }
-      }
-    }
+  @include media($extra-large) {
+    background-color: green;
   }
 }
 
+.header {
+  @include font-type($primary-font, normal, 700);
+}
+
 .main {
-  margin: $spacer-m;
+  padding: $spacer-m;
 
   &__section {
-    margin: $spacer-lg $reset-zero;
+    margin: $spacer-lg $reset-0;
 
     &--index {
 
@@ -31,7 +33,7 @@
 }
 
 .item-container {
-    margin: $spacer-m $reset-zero;
+    margin: $spacer-m $reset-0;
 }
 
 .footer {
