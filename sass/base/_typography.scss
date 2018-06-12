@@ -1,58 +1,54 @@
+// Base Typography Stylesheet
+// This is where your base typography will go
+// ========================================
+
 h1 {
-  font-size: 65px;
-  font-family: $secondary-font;
+
 }
 
 h2 {
-  font-size: 55px;
-  font-family: $primary-font;
+
 }
 
 h3 {
-  font-size: 45px;
-  color: $blue-base;
-  font-family: $primary-font;
+
 }
 
 h4 {
-  font-size: 30px;
+
 }
 
 h5 {
-  font-size: 25px;
+
 }
 
 h6 {
-  font-size: 20px;
+
 }
 
 p {
-  font-size: $font-size-base;
-  font-family: $primary-font;
-  font-weight: 300;
+
 }
 
 a {
-  font-weight: 600;
-  color: $purple-base;
-  text-decoration: none;
+
 }
 
 // Text Alignment
-@each $text-alignment in $text-alignments {
-  $name:   nth($text-alignment, 1);
-  $align:  nth($text-alignment, 2);
-
-  .text--#{$name} {
-    text-align: $align;
-  }
-}
-
-// Text Colors
-@each $name, $tones in $type-colors {
-  $tone-color: nth($tones, 1);
-
-  .text--#{$name} {
-    color: $tone-color;
-  };
-}
+// @each $text-alignment in $text-alignments {
+//   $name:   nth($text-alignment, 1);
+//   $align:  nth($text-alignment, 2);
+//
+//   .text--#{$name} {
+//     text-align: $align;
+//   }
+// }
+//
+// // Text Colors
+// @each $name, $tones in $type-colors {
+//   $tone-color: nth($tones, 1);
+//
+//   .text--#{$name} {
+//     color: $tone-color;
+//   };
+// }
